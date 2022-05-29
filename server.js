@@ -1,4 +1,4 @@
 const app = require("./app")
 
-const port = 8001
+const port = process.env.PORT || 8001
 app.listen(port, () => console.log(`Example app listening on port ${port}`))
